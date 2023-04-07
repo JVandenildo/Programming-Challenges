@@ -14,4 +14,4 @@ while ni <= number:
             f_primes.append(ni)
     ni = ni + 1
 
-print("Max value:", max(f_primes))
+print(f'Largest prime value of {number} is {max(f_primes)}.')

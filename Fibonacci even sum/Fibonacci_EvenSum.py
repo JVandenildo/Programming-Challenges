@@ -16,4 +16,4 @@ while n3 < nth_term:
     if n3 % 2 == 0:
         ns = ns + n3
 
-print("Sum is:", ns)
+print(f'Sum is: {ns}.')

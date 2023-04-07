@@ -1,6 +1,6 @@
-n = int(input("Número máximo: "))
-m1 = int(input("Somar multiplos de: "))
-m2 = int(input("E de: "))
+n = int(input("Highest number: "))
+m1 = int(input("Sum multiples of: "))
+m2 = int(input("And: "))
 i = 0
 x = 0
 
@@ -11,4 +11,4 @@ while x < n:
     else:
         x = x + 1
 
-print(i)
+print(f'The sum multiples of {m1} and {m2} until {n} is {n}.\n')

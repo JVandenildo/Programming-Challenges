@@ -1,10 +1,3 @@
-/*
- * Multiples_3_and_5.cpp
- *
- *  Created on: 27 de set de 2020
- *      Author: José
- */
-
 #include <iostream>
 using namespace std;
 
@@ -30,5 +23,7 @@ int main(){
 			x = x + 1;
 		}
 	}
-	cout << i;
-	return 0;}
+	cout << i << ".\n";
+
+	return 0;
+}

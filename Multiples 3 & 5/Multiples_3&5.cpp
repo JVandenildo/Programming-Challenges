@@ -1,18 +1,11 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+int sumOfMultiples(int n, int m1, int m2){
 	int i, x;
 	i = 0;
 	x = 1;
-
-	int n, m1, m2;
-	cout << "Max number: ";
-	cin >> n;
-	cout << "Sum multiples of: ";
-	cin >> m1;
-	cout << "And: ";
-	cin >> m2;
+	
 
 	while (x < n){
 		if ((x%m1 == 0) || (x%m2 == 0)){
@@ -23,7 +16,20 @@ int main(){
 			x = x + 1;
 		}
 	}
-	cout << i << ".\n";
+
+	return i;
+}
+
+int main(){
+	int n, m1, m2;
+	cout << "Number above: ";
+	cin >> n;
+	cout << "Sum multiples of: ";
+	cin >> m1;
+	cout << "And: ";
+	cin >> m2;
+
+	cout << "The sum of multiples of " << m1  << " or " << m2 << ", below " << n << ", is " << sumOfMultiples(n, m1, m2) << ".\n";
 
 	return 0;
 }

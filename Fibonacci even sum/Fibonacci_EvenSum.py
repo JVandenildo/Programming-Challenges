@@ -1,19 +1,23 @@
 nth_term = int(input("Last number: "))
 n1 = int(input("1st term: "))
 n2 = int(input("2nd term: "))
-n3, ns = 0, 0
 
-if n1 % 2 == 0:
-    ns = ns + n1
-if n2 % 2 == 0:
-    ns = ns + n2
+def FibonacciEvenSum(nth_term, n1, n2):
+    n3, ns = 0, 0
 
-while n3 < nth_term:
-    n3 = n1 + n2
-    n1 = n2
-    n2 = n3
+    if n1 % 2 == 0:
+        ns = ns + n1
+    if n2 % 2 == 0:
+        ns = ns + n2
 
-    if n3 % 2 == 0:
-        ns = ns + n3
+    while n3 < nth_term:
+        n3 = n1 + n2
+        n1 = n2
+        n2 = n3
 
-print(f'Sum is: {ns}.')
+        if n3 % 2 == 0:
+            ns = ns + n3
+    
+    return ns
+
+print(f'Sum is: {FibonacciEvenSum(nth_term, n1, n2)}.')

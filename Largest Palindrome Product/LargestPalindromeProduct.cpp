@@ -6,11 +6,11 @@ int LargestPalindrome(int digits){
     return digits;
 }
 
-int main(){
+/*int main(){
     std::cout << "How many digits? ";
     int digits;
     std::cin >> digits;
     std::cout << LargestPalindrome(digits) << ".\n";
 
     return 0;
-}
+}*/

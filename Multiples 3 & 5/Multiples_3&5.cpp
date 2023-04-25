@@ -20,7 +20,7 @@ int sumOfMultiples(int n, int m1, int m2){
 	return i;
 }
 
-int main(){
+/*int main(){
 	int n, m1, m2;
 	cout << "Number above: ";
 	cin >> n;
@@ -32,4 +32,4 @@ int main(){
 	cout << "The sum of multiples of " << m1  << " or " << m2 << ", below " << n << ", is " << sumOfMultiples(n, m1, m2) << ".\n";
 
 	return 0;
-}
+}*/

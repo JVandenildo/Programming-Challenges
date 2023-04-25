@@ -17,7 +17,7 @@ int SmallestMultiple(int minimum, int maximum){
     return number;
 }
 
-int main(){
+/*int main(){
     int minimum;
     std::cout << "Minimum: ";
     std::cin >> minimum;
@@ -25,7 +25,7 @@ int main(){
     std::cout << "Maximum: ";
     std::cin >> maximum;
 
-    std::cout << (SmallestMultiple(minimum, maximum));
+    std::cout << (SmallestMultiple(minimum, maximum)) << ".\n";
 
     return 0;
-}
+}*/

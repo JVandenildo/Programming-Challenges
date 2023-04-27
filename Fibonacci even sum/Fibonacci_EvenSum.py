@@ -1,7 +1,3 @@
-nth_term = int(input("Last number: "))
-n1 = int(input("1st term: "))
-n2 = int(input("2nd term: "))
-
 def FibonacciEvenSum(nth_term, n1, n2):
     n3, ns = 0, 0
 
@@ -19,5 +15,9 @@ def FibonacciEvenSum(nth_term, n1, n2):
             ns = ns + n3
     
     return ns
+
+nth_term = int(input("Last number: "))
+n1 = int(input("1st term: "))
+n2 = int(input("2nd term: "))
 
 print(f'Sum is: {FibonacciEvenSum(nth_term, n1, n2)}.')

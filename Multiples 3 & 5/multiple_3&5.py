@@ -1,7 +1,3 @@
-n = int(input("Number above: "))
-m1 = int(input("Sum multiples of: "))
-m2 = int(input("And: "))
-
 def sumOfMultiples(n, m1, m2):
     i = 0
     x = 0
@@ -14,5 +10,9 @@ def sumOfMultiples(n, m1, m2):
             x = x + 1
     
     return i
+
+n = int(input("Number above: "))
+m1 = int(input("Sum multiples of: "))
+m2 = int(input("And: "))
 
 print(f'The sum of multiples of {m1} or {m2}, below {n}, is {sumOfMultiples(n, m1, m2)}.')

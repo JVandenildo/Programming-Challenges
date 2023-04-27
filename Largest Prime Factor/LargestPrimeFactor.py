@@ -1,5 +1,3 @@
-number = int(input("Number: "))
-
 def LargestPrimeFactor(number):
     f_primes = []
     ni = 1
@@ -17,5 +15,7 @@ def LargestPrimeFactor(number):
         ni = ni + 1
     
     return max(f_primes)
+
+number = int(input("Number: "))
 
 print(f'Largest prime factor of {number} is {LargestPrimeFactor(number)}.')

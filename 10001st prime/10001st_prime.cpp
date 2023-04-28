@@ -41,7 +41,7 @@ int nth_prime(int nth){
     return max;
 }
 
-int main(){
+/*int main(){
     int nth;
     cout << "How many elements? ";
     cin >> nth;
@@ -50,4 +50,4 @@ int main(){
     cout << nth_prime(nth);
 
     return 0;
-}
+}*/

@@ -39,12 +39,13 @@ int SummationOfPrimes(int number){
     return summation;
 }
 
-int main(){
+/*int main(){
     int number;
     cout << "Number: ";
     cin >> number;
 
+    // challenge asks for 2000000
     cout << SummationOfPrimes(number);
 
     return 0;
-}
+}*/

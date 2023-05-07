@@ -19,7 +19,7 @@ int SumSquareDifference(int firstRange, int secondRange){
     return sumSecondRange - sumFirstRange;
 }
 
-int main(){
+/*int main(){
     int firstRange;
     std::cout << "First range: ";
     std::cin >> firstRange;
@@ -31,4 +31,4 @@ int main(){
     std::cout << SumSquareDifference(firstRange, secondRange) << ".\n";
 
     return 0;
-}
+}*/

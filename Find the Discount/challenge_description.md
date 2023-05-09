@@ -7,4 +7,6 @@ Examples:
 `dis(89, 20) → 71.2`  
 `dis(100, 75) → 25`  
   
-Notes: the answer should be decimal places.  
+**Note**: the answer should be rounded to two decimal places.  
+  
+Link to original post on edabit: [here](https://edabit.com/challenge/pXyd3nzssstTGbgzo).  

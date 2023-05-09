@@ -1,5 +1,5 @@
 def DiscountFinder(OgPrice, discount):
-    return OgPrice * ((100 - discount)/100)
+    return round(OgPrice * ((100 - discount)/100), 2)
 
 OgPrice = float(input("Original price: "))
 Discount = float(input("Discount: "))

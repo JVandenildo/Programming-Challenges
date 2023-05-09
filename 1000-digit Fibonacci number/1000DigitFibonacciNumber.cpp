@@ -30,7 +30,7 @@ int Fibonacci(int digits){
     return Fn;
 }
 
-int main(){
+/*int main(){
     int digits;
     cout << "Digits: ";
     cin >> digits;
@@ -38,4 +38,4 @@ int main(){
     cout << Fibonacci(digits);
 
     return 0;
-}
+}*/

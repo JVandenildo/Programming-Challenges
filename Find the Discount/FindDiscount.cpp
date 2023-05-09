@@ -5,7 +5,7 @@ double DiscountFinder(double OgPrice, double discount){
     return OgPrice * ((100 - discount)/100);
 }
 
-int main(){
+/*int main(){
     double OgPrice, discount;
     cout << "Original price: ";
     cin >> OgPrice;
@@ -15,4 +15,4 @@ int main(){
     cout << "Discounted price: " << DiscountFinder(OgPrice, discount) << ".\n";
 
     return 0;
-}
+}*/

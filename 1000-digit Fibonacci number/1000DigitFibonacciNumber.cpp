@@ -14,23 +14,23 @@ int ManyDigits(int number){
 }
 
 int Fibonacci(int digits){
-    int Term1 = 1;
-    int Term2 = 1;
-    int lastTerm = Term1 + Term2;
+    int F1 = 1;
+    int F2 = 1;
+    int Fn = F1 + F2;
     int count = 3;
 
-    while(ManyDigits(lastTerm) != digits){
-        Term1 = Term2;
-        Term2 = lastTerm;
-        lastTerm = Term1 + Term2;
+    while(ManyDigits(Fn) != digits){
+        F1 = F2;
+        F2 = Fn;
+        Fn = F1 + F2;
         count = count + 1;
     }
     cout << "Term number " << count << ".\n";
 
-    return lastTerm;
+    return Fn;
 }
 
-/*int main(){
+int main(){
     int digits;
     cout << "Digits: ";
     cin >> digits;
@@ -38,4 +38,4 @@ int Fibonacci(int digits){
     cout << Fibonacci(digits);
 
     return 0;
-}*/
+}

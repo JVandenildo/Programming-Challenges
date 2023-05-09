@@ -21,7 +21,7 @@ vector<int> evenOddTransform(int n){
     return numberList;
 }
 
-int main(){
+/*int main(){
     int n;
     cout << "Number of transformations: ";
     cin >> n;
@@ -32,4 +32,4 @@ int main(){
     cout << "Size of "<< evenOddTransform(n).size() << ".\n";
 
     return 0;
-}
+}*/

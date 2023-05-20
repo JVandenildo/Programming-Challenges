@@ -10,7 +10,7 @@ int QuadraticRoot(double a, double b, double c){
     return x1;
 }
 
-int main(){
+/*int main(){
     double a, b, c;
     cout << "a: ";
     cin >> a;
@@ -22,4 +22,4 @@ int main(){
     cout << QuadraticRoot(a, b, c) << ".\n";
 
     return 0;
-}
+}*/

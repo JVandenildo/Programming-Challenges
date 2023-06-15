@@ -1,14 +1,18 @@
 #include <iostream>
 
-int SmallestMultiple(int minimum, int maximum){
+int SmallestMultiple(int minimum, int maximum)
+{
     int number = maximum;
     int init = minimum;
 
-    while(init <= maximum){
-        if(number % init == 0){
+    while (init <= maximum)
+    {
+        if (number % init == 0)
+        {
             init = init + 1;
         }
-        else{
+        else
+        {
             number = number + 1;
             init = minimum;
         }
@@ -17,7 +21,8 @@ int SmallestMultiple(int minimum, int maximum){
     return number;
 }
 
-/*int main(){
+/*int main()
+{
     int minimum;
     std::cout << "Minimum: ";
     std::cin >> minimum;

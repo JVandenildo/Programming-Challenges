@@ -1,16 +1,19 @@
 #include <iostream>
 
-int SumSquareDifference(int firstRange, int secondRange){
+int SumSquareDifference(int firstRange, int secondRange)
+{
     int init = 1;
     int sumFirstRange = 0;
-    while(init <= firstRange){
+    while (init <= firstRange)
+    {
         sumFirstRange = sumFirstRange + (init * init);
         init = init + 1;
     }
 
     init = 1;
     int sumSecondRange = 0;
-    while(init <= secondRange){
+    while (init <= secondRange)
+    {
         sumSecondRange = sumSecondRange + init;
         init = init + 1;
     }
@@ -19,7 +22,8 @@ int SumSquareDifference(int firstRange, int secondRange){
     return sumSecondRange - sumFirstRange;
 }
 
-/*int main(){
+/*int main()
+{
     int firstRange;
     std::cout << "First range: ";
     std::cin >> firstRange;

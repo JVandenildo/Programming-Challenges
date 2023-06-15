@@ -13,11 +13,12 @@ def FibonacciEvenSum(nth_term, n1, n2):
 
         if n3 % 2 == 0:
             ns = ns + n3
-    
+
     return ns
+
 
 nth_term = int(input("Last number: "))
 n1 = int(input("1st term: "))
 n2 = int(input("2nd term: "))
 
-print(f'Sum is: {FibonacciEvenSum(nth_term, n1, n2)}.')
+print(f"Sum is: {FibonacciEvenSum(nth_term, n1, n2)}.")

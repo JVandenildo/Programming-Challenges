@@ -8,8 +8,9 @@ def SmallestMultiple(minimum, maximum):
         else:
             number = number + 1
             init = minimum
-    
+
     return number
+
 
 minimum = int(input("Minimum: "))
 maximum = int(input("Maximum: "))

@@ -1,11 +1,13 @@
 #include <iostream>
 using namespace std;
 
-int ManyDigits(int number){
+int ManyDigits(int number)
+{
     int digits = number / 10;
     int count = 0;
 
-    while(digits >= 1){
+    while (digits >= 1)
+    {
         digits = digits / 10;
         count = count + 1;
     }
@@ -13,13 +15,15 @@ int ManyDigits(int number){
     return count + 1;
 }
 
-int Fibonacci(int digits){
+int Fibonacci(int digits)
+{
     int F1 = 1;
     int F2 = 1;
     int Fn = F1 + F2;
     int count = 3;
 
-    while(ManyDigits(Fn) != digits){
+    while (ManyDigits(Fn) != digits)
+    {
         F1 = F2;
         F2 = Fn;
         Fn = F1 + F2;
@@ -30,7 +34,8 @@ int Fibonacci(int digits){
     return Fn;
 }
 
-/*int main(){
+/*int main()
+{
     int digits;
     cout << "Digits: ";
     cin >> digits;

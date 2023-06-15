@@ -1,5 +1,5 @@
 def primeNumber(number):
-    numberHalf = number/2
+    numberHalf = number / 2
     divisor = 1
     divisorList = []
 
@@ -13,19 +13,21 @@ def primeNumber(number):
     else:
         return False
 
+
 def SummationOfPrimes(number):
     count = 1
     listCount = []
     summation = 0
-    
+
     while count < number:
         if primeNumber(count) == True:
             listCount.append(count)
             summation = summation + count
         count = count + 1
-    print(f'{len(listCount)}, {listCount}.')
+    print(f"{len(listCount)}, {listCount}.")
 
     return summation
+
 
 number = int(input("Number: "))
 

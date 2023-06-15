@@ -13,9 +13,10 @@ def LargestPrimeFactor(number):
             if len(f) == 2:
                 f_primes.append(ni)
         ni = ni + 1
-    
+
     return max(f_primes)
+
 
 number = int(input("Number: "))
 
-print(f'Largest prime factor of {number} is {LargestPrimeFactor(number)}.')
+print(f"Largest prime factor of {number} is {LargestPrimeFactor(number)}.")

@@ -8,4 +8,4 @@ Examples:
 `reverse("a") → "a"`
 `reverse("") → ""`
 
-Link to original post on project euler: [here](https://edabit.com/challenge/HXGx9oXukEgsFK6PH).
+Link to original post on edabit: [here](https://edabit.com/challenge/HXGx9oXukEgsFK6PH).

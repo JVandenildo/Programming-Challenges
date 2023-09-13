@@ -3,10 +3,16 @@
 
 std::string reverse(std::string word)
 {
-    std::string reversedParameter;
-    reversedParameter = word.length();
+    std::string reversedWord = "";
+    int wordLength = word.length();
 
-    return reversedParameter;
+    while (reversedWord.size() < word.size())
+    {
+        reversedWord.push_back(word[wordLength - 1]);
+        wordLength = wordLength - 1;
+    }
+
+    return reversedWord;
 }
 
 int main()

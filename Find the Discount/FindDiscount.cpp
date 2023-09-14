@@ -1,7 +1,6 @@
 #include <iostream>
-using namespace std;
 
-double DiscountFinder(double OgPrice, double discount)
+double dis(double OgPrice, double discount)
 {
     return OgPrice * ((100 - discount) / 100);
 }
@@ -9,12 +8,12 @@ double DiscountFinder(double OgPrice, double discount)
 /*int main()
 {
     double OgPrice, discount;
-    cout << "Original price: ";
+    std::cout << "Original price: ";
     cin >> OgPrice;
-    cout << "Discount: ";
+    std::cout << "Discount: ";
     cin >> discount;
 
-    cout << "Discounted price: " << DiscountFinder(OgPrice, discount) << ".\n";
+    std::cout << "Discounted price: " << dis(OgPrice, discount) << ".\n";
 
     return 0;
 }*/

@@ -17,6 +17,10 @@ def LargestPrimeFactor(number):
     return max(f_primes)
 
 
+# using for challenge's example
+print(LargestPrimeFactor(13195), LargestPrimeFactor(600851475143))
+
+# using for other number
 number = int(input("Number: "))
 
 print(f"Largest prime factor of {number} is {LargestPrimeFactor(number)}.")

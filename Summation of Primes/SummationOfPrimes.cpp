@@ -1,6 +1,5 @@
 #include <iostream>
 #include <vector>
-using namespace std;
 
 // function to verify if number is prime
 bool primeNumber(int number)
@@ -31,7 +30,7 @@ bool primeNumber(int number)
 int SummationOfPrimes(int number)
 {
     int count = 1;
-    vector<int> listCount;
+    std::vector<int> listCount;
     int summation = 0;
 
     while (count < number)
@@ -50,11 +49,11 @@ int SummationOfPrimes(int number)
 /*int main()
 {
     int number;
-    cout << "Number: ";
+    std::cout << "Number: ";
     cin >> number;
 
     // challenge asks for 2000000
-    cout << SummationOfPrimes(number);
+    std::cout << SummationOfPrimes(number);
 
     return 0;
 }*/

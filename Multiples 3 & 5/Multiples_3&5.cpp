@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
 
 int sumOfMultiples(int n, int m1, int m2)
 {
@@ -26,14 +25,14 @@ int sumOfMultiples(int n, int m1, int m2)
 /*int main()
 {
 	int n, m1, m2;
-	cout << "Number above: ";
+	std::cout << "Number above: ";
 	cin >> n;
-	cout << "Sum multiples of: ";
+	std::cout << "Sum multiples of: ";
 	cin >> m1;
-	cout << "And: ";
+	std::cout << "And: ";
 	cin >> m2;
 
-	cout << "The sum of multiples of " << m1 << " or " << m2 << ", below " << n << ", is " << sumOfMultiples(n, m1, m2) << ".\n";
+	std::cout << "The sum of multiples of " << m1 << " or " << m2 << ", below " << n << ", is " << sumOfMultiples(n, m1, m2) << ".\n";
 
 	return 0;
 }*/

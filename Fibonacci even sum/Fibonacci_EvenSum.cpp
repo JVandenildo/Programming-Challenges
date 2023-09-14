@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
 
 int FibonacciEvenSum(int nth_term, int n1, int n2)
 {
@@ -32,14 +31,14 @@ int FibonacciEvenSum(int nth_term, int n1, int n2)
 /*int main()
 {
     int nth_term, n1, n2;
-    cout << "Last number: ";
+    std::cout << "Last number: ";
     cin >> nth_term;
-    cout << "1st term: ";
+    std::cout << "1st term: ";
     cin >> n1;
-    cout << "2nd term: ";
+    std::cout << "2nd term: ";
     cin >> n2;
 
-    cout << FibonacciEvenSum(nth_term, n1, n2);
+    std::cout << FibonacciEvenSum(nth_term, n1, n2);
 
     return 0;
 }*/

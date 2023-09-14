@@ -1,10 +1,9 @@
 #include <iostream>
 #include <vector>
-using namespace std;
 
 int LargestPrimeFactor(int number)
 {
-    vector<int> f_primes;
+    std::vector<int> f_primes;
     int ni = 1;
 
     while (ni <= number)
@@ -12,7 +11,7 @@ int LargestPrimeFactor(int number)
         if (number % ni == 0)
         {
             int nn = 1;
-            vector<int> f;
+            std::vector<int> f;
 
             while (nn <= ni)
             {
@@ -36,10 +35,10 @@ int LargestPrimeFactor(int number)
 /*int main()
 {
     int number;
-    cout << "Number: ";
+    std::cout << "Number: ";
     cin >> number;
 
-    cout << "Largest prime factor of " << number << " is " << LargestPrimeFactor(number) << ".\n";
+    std::cout << "Largest prime factor of " << number << " is " << LargestPrimeFactor(number) << ".\n";
 
     return 0;
 }*/

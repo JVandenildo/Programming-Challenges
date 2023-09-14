@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-using namespace std;
 
 // function to verify if number is prime
 bool primeNumber(int number)
@@ -32,7 +31,7 @@ bool primeNumber(int number)
 int nth_prime(int nth)
 {
     int prime = 1;
-    vector<int> primeList;
+    std::vector<int> primeList;
 
     while (primeList.size() < nth)
     {
@@ -42,7 +41,7 @@ int nth_prime(int nth)
         }
         prime = prime + 1;
     }
-    cout << "Size " << primeList.size() << ".\n";
+    std::cout << "Size " << primeList.size() << ".\n";
 
     int max = *max_element(primeList.begin(), primeList.end());
 
@@ -52,11 +51,11 @@ int nth_prime(int nth)
 /*int main()
 {
     int nth;
-    cout << "How many elements? ";
+    std::cout << "How many elements? ";
     cin >> nth;
 
     // the challenge asks for 10001st element
-    cout << nth_prime(nth);
+    std::cout << nth_prime(nth);
 
     return 0;
 }*/

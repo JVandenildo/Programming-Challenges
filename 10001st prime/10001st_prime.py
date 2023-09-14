@@ -1,6 +1,6 @@
 # function to verify if number is prime
 def primeNumber(number):
-    numberHalf = number/2
+    numberHalf = number / 2
     divisor = 1
     divisorList = []
 
@@ -14,6 +14,7 @@ def primeNumber(number):
     else:
         return False
 
+
 def nth_prime(nth):
     prime = 1
     primeList = []
@@ -22,11 +23,13 @@ def nth_prime(nth):
         if primeNumber(prime) == True:
             primeList.append(prime)
         prime = prime + 1
-    print(f'Size {len(primeList)}.')
 
     return max(primeList)
 
-nth = int(input("How many elements? "))
 
 # the challenge asks for 10001st element
-print(f'The {nth} prime is {nth_prime(nth)}.')
+print(f"The 1001st prime is {nth_prime(1001)}.")
+
+# in case of testing other number
+nth = int(input("How many elements? "))
+print(f"The {nth} prime is {nth_prime(nth)}.")

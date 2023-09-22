@@ -1,5 +1,9 @@
 # About
 
+Code in C++ was given, and the user must work on it in order to fulfill the challenge.
+
+## Challenge description
+
 Create classes to act as character in a turn-based RPG. Test functions will be used to simulate player input.
 
 - Characters should start at least at level 1.

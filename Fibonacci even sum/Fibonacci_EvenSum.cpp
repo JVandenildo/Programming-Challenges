@@ -32,11 +32,11 @@ int FibonacciEvenSum(int nth_term, int n1, int n2)
 {
     int nth_term, n1, n2;
     std::cout << "Last number: ";
-    cin >> nth_term;
+    std::cin >> nth_term;
     std::cout << "1st term: ";
-    cin >> n1;
+    std::cin >> n1;
     std::cout << "2nd term: ";
-    cin >> n2;
+    std::cin >> n2;
 
     std::cout << FibonacciEvenSum(nth_term, n1, n2);
 

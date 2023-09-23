@@ -26,11 +26,11 @@ int sumOfMultiples(int n, int m1, int m2)
 {
 	int n, m1, m2;
 	std::cout << "Number above: ";
-	cin >> n;
+	std::cin >> n;
 	std::cout << "Sum multiples of: ";
-	cin >> m1;
+	std::cin >> m1;
 	std::cout << "And: ";
-	cin >> m2;
+	std::cin >> m2;
 
 	std::cout << "The sum of multiples of " << m1 << " or " << m2 << ", below " << n << ", is " << sumOfMultiples(n, m1, m2) << ".\n";
 

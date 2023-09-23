@@ -50,7 +50,7 @@ int SummationOfPrimes(int number)
 {
     int number;
     std::cout << "Number: ";
-    cin >> number;
+    std::cin >> number;
 
     // challenge asks for 2000000
     std::cout << SummationOfPrimes(number);

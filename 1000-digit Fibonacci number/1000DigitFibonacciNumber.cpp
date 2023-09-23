@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
 
 int ManyDigits(int number)
 {
@@ -29,7 +28,7 @@ int Fibonacci(int digits)
         Fn = F1 + F2;
         count = count + 1;
     }
-    cout << "Term number " << count << ".\n";
+    std::cout << "Term number " << count << ".\n";
 
     return Fn;
 }
@@ -37,10 +36,10 @@ int Fibonacci(int digits)
 /*int main()
 {
     int digits;
-    cout << "Digits: ";
-    cin >> digits;
+    std::cout << "Digits: ";
+    std::cin >> digits;
 
-    cout << Fibonacci(digits);
+    std::cout << Fibonacci(digits);
 
     return 0;
 }*/

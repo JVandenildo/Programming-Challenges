@@ -14,14 +14,14 @@ int QuadraticRoot(double a, double b, double c)
 /*int main()
 {
     double a, b, c;
-    cout << "a: ";
-    cin >> a;
-    cout << "b: ";
-    cin >> b;
-    cout << "c: ";
-    cin >> c;
+    std::cout << "a: ";
+    std::cin >> a;
+    std::cout << "b: ";
+    std::cin >> b;
+    std::cout << "c: ";
+    std::cin >> c;
 
-    cout << QuadraticRoot(a, b, c) << ".\n";
+    std::cout << QuadraticRoot(a, b, c) << ".\n";
 
     return 0;
 }*/

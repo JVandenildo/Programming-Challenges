@@ -29,7 +29,7 @@ std::vector<int> evenOddTransform(int n)
 {
     int n;
     std::cout << "Number of transformations: ";
-    cin >> n;
+    std::cin >> n;
 
     for (auto i : evenOddTransform(n))
     {

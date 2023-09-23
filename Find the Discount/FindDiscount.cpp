@@ -9,9 +9,9 @@ double dis(double OgPrice, double discount)
 {
     double OgPrice, discount;
     std::cout << "Original price: ";
-    cin >> OgPrice;
+    std::cin >> OgPrice;
     std::cout << "Discount: ";
-    cin >> discount;
+    std::cin >> discount;
 
     std::cout << "Discounted price: " << dis(OgPrice, discount) << ".\n";
 

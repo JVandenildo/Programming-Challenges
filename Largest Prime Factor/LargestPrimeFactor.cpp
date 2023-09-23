@@ -36,7 +36,7 @@ int LargestPrimeFactor(int number)
 {
     int number;
     std::cout << "Number: ";
-    cin >> number;
+    std::cin >> number;
 
     std::cout << "Largest prime factor of " << number << " is " << LargestPrimeFactor(number) << ".\n";
 

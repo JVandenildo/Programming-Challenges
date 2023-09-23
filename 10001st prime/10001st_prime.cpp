@@ -52,7 +52,7 @@ int nth_prime(int nth)
 {
     int nth;
     std::cout << "How many elements? ";
-    cin >> nth;
+    std::cin >> nth;
 
     // the challenge asks for 10001st element
     std::cout << nth_prime(nth);

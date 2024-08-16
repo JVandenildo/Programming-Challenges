@@ -23,4 +23,4 @@ The 12<sup>th</sup> term, F<sub>12</sub>, is the first term to contain three dig
 What is the index of the first term in the Fibonacci sequence to contain 1000 digits?
 
 > [!NOTE]
-> Link to original post on project euler: [here](https://projecteuler.net/problem=25).
+> Link to original post on Project Euler: [here](https://projecteuler.net/problem=25).

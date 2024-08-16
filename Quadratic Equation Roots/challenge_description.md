@@ -17,4 +17,4 @@ Notes:
 - Calculate only the root that sums the square root of the discriminant, not the one that subtracts it;
 - Round the value/return only integer value.
 
-Link to original post on edabit: [here](https://edabit.com/challenge/nasKYub6qEAfQcFuy).
+Link to original post on Edabit: [here](https://edabit.com/challenge/nasKYub6qEAfQcFuy).

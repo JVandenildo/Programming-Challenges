@@ -12,4 +12,4 @@ Examples:
 > `evenOddTransform([0, 0, 0], 10) → [-20, -20, -20]`  
 > `evenOddTransform([1, 2, 3], 1) → [3, 0, 5]`
 
-Link to original post on edabit: [here](https://edabit.com/challenge/4YSyNPFzJfodySCSa).
+Link to original post on Edabit: [here](https://edabit.com/challenge/4YSyNPFzJfodySCSa).

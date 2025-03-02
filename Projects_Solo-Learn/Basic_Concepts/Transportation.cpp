@@ -2,13 +2,14 @@
  * Transportation.cpp
  *
  *  Created on: 7 de abr de 2021
- *      Author: José
+ *      Author: JosÃ©
  */
 
 #include <iostream>
 using namespace std;
 
-int main(){
+int main()
+{
 	/* A bus can transport 50 passengers at once
 	 * Given the number of passengers waiting in the bus stations as input, you
 	 * need to calculate and output how many empty seats the last bus will

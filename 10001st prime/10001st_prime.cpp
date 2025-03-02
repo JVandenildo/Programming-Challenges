@@ -35,7 +35,7 @@ int nth_prime(int nth)
 
     while (primeList.size() < nth)
     {
-        if (primeNumber(prime) == true)
+        if (primeNumber(prime))
         {
             primeList.push_back(prime);
         }
@@ -48,14 +48,14 @@ int nth_prime(int nth)
     return max;
 }
 
-/*int main()
+int main()
 {
     int nth;
-    std::cout << "How many elements? ";
+    std::cout << "Number of elements: ";
     std::cin >> nth;
 
     // the challenge asks for 10001st element
     std::cout << nth_prime(nth);
 
     return 0;
-}*/
+}

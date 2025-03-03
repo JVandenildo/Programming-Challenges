@@ -6,7 +6,6 @@
  */
 
 #include <iostream>
-using namespace std;
 
 int main()
 {
@@ -17,13 +16,13 @@ int main()
 	/* The modulo operator, %, can help to determine the
 	 * number of passengers for the last bus*/
 	int passengers;
-	cout << "Passengers: ";
-	cin >> passengers;
+	std::cout << "Passengers: ";
+	std::cin >> passengers;
 
 	int leftPassengers = passengers % 50;
 
 	int seatsLeft = 50 - leftPassengers;
-	cout << seatsLeft;
+	std::cout << seatsLeft;
 
 	return 0;
 }

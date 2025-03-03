@@ -6,7 +6,6 @@
  */
 
 #include <iostream>
-using namespace std;
 
 int main()
 {
@@ -15,15 +14,15 @@ int main()
 	 * When the current countdown is a multiple
 	 * of 5, the app should output "Beep".*/
 	int n;
-	cout << "Valor de n: ";
-	cin >> n;
+	std::cout << "Valor de n: ";
+	std::cin >> n;
 
 	while (n >= 1)
 	{
-		cout << n << endl;
+		std::cout << n << std::endl;
 		if (n % 5 == 0)
 		{
-			cout << "Beep" << endl;
+			std::cout << "Beep" << std::endl;
 		}
 		n--;
 	}

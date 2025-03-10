@@ -1,4 +1,4 @@
-# About
+# Quadratic Equation Roots
 
 Create a function to find only the root value of $x$ in any quadratic equation $ax^2 + bx + c$. The function will take three arguments:
 

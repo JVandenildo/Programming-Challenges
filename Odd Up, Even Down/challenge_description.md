@@ -1,4 +1,4 @@
-# About
+# Odd Up, Even Down – N Times
 
 Create a function that performs an even-odd transform to an array, `n` times. Each even-odd transformation:
 

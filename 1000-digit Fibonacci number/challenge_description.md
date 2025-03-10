@@ -1,4 +1,4 @@
-# About
+# 1000-Digit Fibonacci Number
 
 The Fibonacci sequence is defined by the recurrence relation:  
 $F_{n} = F_{n−1} + F_{n−2}$, where $F_{1} = 1$ and $F_{2} = 1$.

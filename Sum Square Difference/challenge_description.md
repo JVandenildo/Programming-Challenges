@@ -1,4 +1,4 @@
-# About
+# Sum Square Difference
 
 The sum of the squares of the first ten natural numbers is, 1<sup>2</sup> + 2<sup>2</sup> + ... + 10<sup>2</sup> = 385.  
 The square of the sum of the first ten natural numbers is, (1 + 2 + ... + 10)<sup>2</sup> = 55<sup>2</sup> = 3025.  
